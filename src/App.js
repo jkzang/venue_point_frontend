@@ -9,7 +9,9 @@ import Button from './components/button'
 class App extends Component {
   render() {
     return (
-        <Form/>
+        <Router>
+          <Route exact path ="/" component = {Form}/>
+        </Router>
     );
   }
 }
